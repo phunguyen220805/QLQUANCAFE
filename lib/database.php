@@ -21,7 +21,7 @@ public function __construct()
     $this->user,
     $this->pass,
     $this->dbname,
-    3307
+    3306
 );
 
 if ($this->link->connect_error) {
